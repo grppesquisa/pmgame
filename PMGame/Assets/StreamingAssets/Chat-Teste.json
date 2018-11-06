@@ -1,0 +1,98 @@
+
+
+{
+  "passages": [
+    {
+      "text": "Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto. Texto texto, texto texto texto texto texto texto texto texto texto texto texto texto texto.\n\n[[Sim]]\n[[Não]]",
+      "links": [
+        {
+          "name": "Sim",
+          "link": "Sim",
+          "pid": "2"
+        },
+        {
+          "name": "Não",
+          "link": "Não",
+          "pid": "3"
+        }
+      ],
+      "name": "Inicio",
+      "pid": "1",
+      "position": {
+        "x": "583",
+        "y": "227"
+      }
+    },
+    {
+      "text": "Texto sim, texto simtexto simtexto simtexto simtexto simtexto simtexto simtexto simtexto simtexto simtexto sim.\n\n[[Segue]]",
+      "links": [
+        {
+          "name": "Segue",
+          "link": "Segue",
+          "pid": "4"
+        }
+      ],
+      "name": "Sim",
+      "pid": "2",
+      "position": {
+        "x": "327",
+        "y": "251"
+      }
+    },
+    {
+      "text": "Texto não texto não texto não texto não texto não texto não texto não texto não texto não texto não texto não texto não texto não.\n\n[[Fim]]",
+      "links": [
+        {
+          "name": "Fim",
+          "link": "Fim",
+          "pid": "5"
+        }
+      ],
+      "name": "Não",
+      "pid": "3",
+      "position": {
+        "x": "839",
+        "y": "318"
+      }
+    },
+    {
+      "text": "Texto segue texto segue texto segue texto segue texto segue texto segue texto segue texto segue texto segue texto segue.\n\n[[Volta para não|Não]]\n[[Volta para início|Inicio]]\n[[Fim]]",
+      "links": [
+        {
+          "name": "Volta para não|Não",
+          "link": "Volta para não|Não"
+        },
+        {
+          "name": "Volta para início|Inicio",
+          "link": "Volta para início|Inicio"
+        },
+        {
+          "name": "Fim",
+          "link": "Fim",
+          "pid": "5"
+        }
+      ],
+      "name": "Segue",
+      "pid": "4",
+      "position": {
+        "x": "409",
+        "y": "473"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "Fim",
+      "pid": "5",
+      "position": {
+        "x": "670",
+        "y": "622"
+      }
+    }
+  ],
+  "name": "Teste Chat",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.2.1",
+  "ifid": "4BF30A8A-3864-4E52-9E38-40917CF1CB9E"
+}
+
