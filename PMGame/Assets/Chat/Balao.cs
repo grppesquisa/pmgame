@@ -25,6 +25,13 @@ public class Balao : MonoBehaviour {
 		texto.text = mensagem.texto;
 		isFalaMinha = mensagem.isFalaMinha;
 
+
+	}
+	
+
+	void Update () {
+		rt.SetSizeWithCurrentAnchors (RectTransform.Axis.Vertical, texto.preferredHeight + ajuste);
+
 		if (isFalaMinha) {
 			rt.gameObject.GetComponent<Image> ().color = eu;
 			rt.localScale = normal;
@@ -34,12 +41,7 @@ public class Balao : MonoBehaviour {
 			rt.localScale = invertido;
 			texto.rectTransform.localScale = invertido;
 		}
-
 	}
-	
 
-	void Update () {
-		rt.SetSizeWithCurrentAnchors (RectTransform.Axis.Vertical, texto.preferredHeight + ajuste);
 
-	}
 }

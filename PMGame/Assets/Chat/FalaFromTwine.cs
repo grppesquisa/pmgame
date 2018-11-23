@@ -7,5 +7,6 @@ public class FalaFromTwine {
     public string text;
     public LinkFromTwine[] links;
     public int pid;
+	public string[] tags;
 
 }

@@ -1,9 +1,7 @@
-
-
 {
   "passages": [
     {
-      "text": "Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto. Texto texto, texto texto texto texto texto texto texto texto texto texto texto texto texto.\n\n[[Sim]]\n[[Não]]",
+      "text": "Jogador, você está recebendo uma mensagem.\nVocê quer continuar a conversa?\n¢\n[[Sim]]\n[[Não]]",
       "links": [
         {
           "name": "Sim",
@@ -19,80 +17,82 @@
       "name": "Inicio",
       "pid": "1",
       "position": {
-        "x": "583",
-        "y": "227"
+        "x": "813",
+        "y": "319"
       }
     },
     {
-      "text": "Texto sim, texto simtexto simtexto simtexto simtexto simtexto simtexto simtexto simtexto simtexto simtexto sim.\n\n[[Segue]]",
+      "text": "Certo. \nVocê quer ir mais fundo na conversa?\n¢\n[[Claro]]\n[[Não]] ",
       "links": [
         {
-          "name": "Segue",
-          "link": "Segue",
+          "name": "Claro",
+          "link": "Claro",
           "pid": "4"
+        },
+        {
+          "name": "Não",
+          "link": "Não",
+          "pid": "3"
         }
       ],
       "name": "Sim",
       "pid": "2",
       "position": {
-        "x": "327",
-        "y": "251"
+        "x": "656",
+        "y": "502"
       }
     },
     {
-      "text": "Texto não texto não texto não texto não texto não texto não texto não texto não texto não texto não texto não texto não texto não.\n\n[[Fim]]",
-      "links": [
-        {
-          "name": "Fim",
-          "link": "Fim",
-          "pid": "5"
-        }
-      ],
+      "text": "Ok, acabou aqui então...\n",
       "name": "Não",
       "pid": "3",
       "position": {
-        "x": "839",
-        "y": "318"
-      }
+        "x": "935",
+        "y": "510"
+      },
+      "tags": [
+        "Respondeu-Não"
+      ]
     },
     {
-      "text": "Texto segue texto segue texto segue texto segue texto segue texto segue texto segue texto segue texto segue texto segue.\n\n[[Volta para não|Não]]\n[[Volta para início|Inicio]]\n[[Fim]]",
+      "text": "Beleza!\nAgora você tem três opções,  quer continuar?\n¢\n[[Pode ser]]\n[[Não]] \n[[Inicio]] ",
       "links": [
         {
-          "name": "Volta para não|Não",
-          "link": "Volta para não|Não"
-        },
-        {
-          "name": "Volta para início|Inicio",
-          "link": "Volta para início|Inicio"
-        },
-        {
-          "name": "Fim",
-          "link": "Fim",
+          "name": "Pode ser",
+          "link": "Pode ser",
           "pid": "5"
+        },
+        {
+          "name": "Não",
+          "link": "Não",
+          "pid": "3"
+        },
+        {
+          "name": "Inicio",
+          "link": "Inicio",
+          "pid": "1"
         }
       ],
-      "name": "Segue",
+      "name": "Claro",
       "pid": "4",
       "position": {
-        "x": "409",
-        "y": "473"
+        "x": "800",
+        "y": "664"
       }
     },
     {
-      "text": "Double-click this passage to edit it.",
-      "name": "Fim",
+      "text": "Aqui também acaba.\n",
+      "name": "Pode ser",
       "pid": "5",
       "position": {
-        "x": "670",
-        "y": "622"
+        "x": "961",
+        "y": "663"
       }
     }
   ],
-  "name": "Teste Chat",
+  "name": "Teste PMGame",
   "startnode": "1",
   "creator": "Twine",
   "creator-version": "2.2.1",
-  "ifid": "4BF30A8A-3864-4E52-9E38-40917CF1CB9E"
+  "ifid": "DB7D4263-E2D4-4F43-BC8B-2AF4015B0042"
 }
-

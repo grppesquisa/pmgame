@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Conversa : MonoBehaviour {
 
@@ -12,6 +13,10 @@ public class Conversa : MonoBehaviour {
 	}
 
 	void Update () {
+		mensagens.Clear ();
+		foreach (RectTransform item in transform) {
+			mensagens.Add (item);
+		}
 		for (int i = 0; i < mensagens.Count; i++) {
 			if (i == 0) {
 				mensagens [i].anchoredPosition = Vector2.zero;

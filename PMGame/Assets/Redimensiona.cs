@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class Redimensiona : MonoBehaviour , IBeginDragHandler, IDragHandler , IEndDragHandler {
 
@@ -30,6 +31,12 @@ public class Redimensiona : MonoBehaviour , IBeginDragHandler, IDragHandler , IE
 		if (!isRedimensionando) {
 			posicao = new Vector2 (janela.rect.width, -janela.rect.height);
 			retangulo.anchoredPosition = posicao - ajuste_Update;
+		}
+
+		if (janelaHandler.isMaximizado) {
+			retangulo.transform.SetAsFirstSibling ();
+		} else {
+			retangulo.transform.SetAsLastSibling ();
 		}
 
 	}

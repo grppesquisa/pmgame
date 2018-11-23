@@ -9,18 +9,37 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1846985095430334}
+  m_RootGameObject: {fileID: 1033850966886108}
   m_IsPrefabAsset: 1
---- !u!1 &1653999856371880
+--- !u!1 &1033850966886108
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 224357863216854964}
-  - component: {fileID: 222074020505124944}
-  - component: {fileID: 114027539514540882}
+  - component: {fileID: 224320158182560844}
+  - component: {fileID: 222969499799647416}
+  - component: {fileID: 114652803459017756}
+  - component: {fileID: 114515516395712522}
+  - component: {fileID: 114253809018850220}
+  m_Layer: 5
+  m_Name: Resposta
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1944167376796682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224917025860839118}
+  - component: {fileID: 222400107006322244}
+  - component: {fileID: 114458113634892474}
   m_Layer: 5
   m_Name: TextMeshPro Text
   m_TagString: Untagged
@@ -28,30 +47,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1846985095430334
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 224854832516839372}
-  - component: {fileID: 222765705261786762}
-  - component: {fileID: 114515474455623148}
-  - component: {fileID: 114784215611388326}
-  m_Layer: 5
-  m_Name: Mensagem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &114027539514540882
+--- !u!114 &114253809018850220
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1653999856371880}
+  m_GameObject: {fileID: 1033850966886108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a762ae9fb9ca7e42a829ec9c24086e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chatConversa: {fileID: 0}
+  pid: 0
+--- !u!114 &114458113634892474
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1944167376796682}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -133,7 +147,7 @@ MonoBehaviour:
   m_pageToDisplay: 1
   m_margin: {x: 4.7789, y: 0, z: 0, w: 0}
   m_textInfo:
-    textComponent: {fileID: 114027539514540882}
+    textComponent: {fileID: 114458113634892474}
     characterCount: 63
     spriteCount: 0
     spaceCount: 8
@@ -160,12 +174,28 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &114515474455623148
+--- !u!114 &114515516395712522
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1846985095430334}
+  m_GameObject: {fileID: 1033850966886108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5081747cae0938545a01c61a0b2cb07f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eu: {r: 0.40000004, g: 1, b: 0.6, a: 1}
+  ele: {r: 0.20000002, g: 0.8000001, b: 1, a: 1}
+  mensagem:
+    isFalaMinha: 1
+    texto: "Este \xE9 um teste das mensagens que ser\xE3o exibidas na janela de chat."
+--- !u!114 &114652803459017756
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1033850966886108}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -179,7 +209,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 04a4d645538308c4780355e88e8dd86f, type: 3}
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -187,65 +217,31 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114784215611388326
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1846985095430334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5081747cae0938545a01c61a0b2cb07f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  eu: {r: 0.40000004, g: 1, b: 0.6, a: 1}
-  ele: {r: 0.20000002, g: 0.8000001, b: 1, a: 1}
-  mensagem:
-    isFalaMinha: 1
-    texto: "Este \xE9 um teste das mensagens que ser\xE3o exibidas na janela de chat."
---- !u!222 &222074020505124944
+--- !u!222 &222400107006322244
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1653999856371880}
+  m_GameObject: {fileID: 1944167376796682}
   m_CullTransparentMesh: 0
---- !u!222 &222765705261786762
+--- !u!222 &222969499799647416
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1846985095430334}
+  m_GameObject: {fileID: 1033850966886108}
   m_CullTransparentMesh: 0
---- !u!224 &224357863216854964
+--- !u!224 &224320158182560844
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1653999856371880}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 224854832516839372}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0.93700004, y: 1}
-  m_AnchoredPosition: {x: 0.15249634, y: -16.565}
-  m_SizeDelta: {x: -21.695, y: 23.25}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!224 &224854832516839372
-RectTransform:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1846985095430334}
+  m_GameObject: {fileID: 1033850966886108}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 224357863216854964}
+  - {fileID: 224917025860839118}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -254,3 +250,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -15.21, y: 28.19}
   m_Pivot: {x: 0.49999994, y: 1.0000004}
+--- !u!224 &224917025860839118
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1944167376796682}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224320158182560844}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0.93700004, y: 1}
+  m_AnchoredPosition: {x: 0.15249634, y: -16.565}
+  m_SizeDelta: {x: -21.695, y: 23.25}
+  m_Pivot: {x: 0.5, y: 0.5}
