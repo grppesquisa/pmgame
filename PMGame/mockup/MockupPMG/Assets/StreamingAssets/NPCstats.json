@@ -1,0 +1,4 @@
+[{"teamRole":"President","treatment":"Mr.","firstName":"Zé","surname":"Silva","photo":10000111,"email":"ze.silva@empresa.com","afinity":1,"respect":2,"confidence":4},
+{"teamRole":"Trainee","treatment":"Mrs.","firstName":"Jane","surname":"Doe","photo":10001000,"email":"jane.doe@email.com","afinity":2,"respect":4,"confidence":8},
+{"teamRole":"Vice-President","treatment":"Mr.","firstName":"Zé","surname":"Silva","photo":10000111,"email":"ze.silva@empresa.com","afinity":1,"respect":2,"confidence":4},
+{"teamRole":"Vice-Trainee","treatment":"Mrs.","firstName":"Jane","surname":"Doe","photo":10001000,"email":"jane.doe@email.com","afinity":2,"respect":4,"confidence":8}]

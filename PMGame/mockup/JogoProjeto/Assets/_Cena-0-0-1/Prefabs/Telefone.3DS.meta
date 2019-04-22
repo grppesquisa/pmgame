@@ -1,0 +1,269 @@
+fileFormatVersion: 2
+guid: 755e0c0834477154fa467610a50f090e
+timeCreated: 1534623137
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Line01
+    100004: Rectangl10
+    100006: Rectangl11
+    100008: Rectangl12
+    100010: Rectangl13
+    100012: Rectangl14
+    100014: Rectangl15
+    100016: Rectangl16
+    100018: Rectangl17
+    100020: Rectangl18
+    100022: Rectangl19
+    100024: Rectangl20
+    100026: Rectangl21
+    100028: Rectangl22
+    100030: Rectangl23
+    100032: Rectangl24
+    100034: Rectangl25
+    100036: Rectangl26
+    100038: Rectangl27
+    100040: Rectangl28
+    100042: Rectangl29
+    100044: Rectangl30
+    100046: Rectangl31
+    100048: Rectangl32
+    100050: Rectangl33
+    100052: Rectangle0
+    100054: Rectangle1
+    100056: Rectangle2
+    100058: Rectangle3
+    100060: Rectangle4
+    100062: Rectangle5
+    100064: Rectangle6
+    100066: Rectangle7
+    100068: Rectangle8
+    100070: Rectangle9
+    400000: //RootNode
+    400002: Line01
+    400004: Rectangl10
+    400006: Rectangl11
+    400008: Rectangl12
+    400010: Rectangl13
+    400012: Rectangl14
+    400014: Rectangl15
+    400016: Rectangl16
+    400018: Rectangl17
+    400020: Rectangl18
+    400022: Rectangl19
+    400024: Rectangl20
+    400026: Rectangl21
+    400028: Rectangl22
+    400030: Rectangl23
+    400032: Rectangl24
+    400034: Rectangl25
+    400036: Rectangl26
+    400038: Rectangl27
+    400040: Rectangl28
+    400042: Rectangl29
+    400044: Rectangl30
+    400046: Rectangl31
+    400048: Rectangl32
+    400050: Rectangl33
+    400052: Rectangle0
+    400054: Rectangle1
+    400056: Rectangle2
+    400058: Rectangle3
+    400060: Rectangle4
+    400062: Rectangle5
+    400064: Rectangle6
+    400066: Rectangle7
+    400068: Rectangle8
+    400070: Rectangle9
+    2100000: elc001_gray1 (Vr
+    2100002: elc001_gray2 (Vr
+    2100004: elc001_plastic (
+    2100006: elc001_metall (V
+    2100008: elc001_monitor (
+    2300000: Line01
+    2300002: Rectangl10
+    2300004: Rectangl11
+    2300006: Rectangl12
+    2300008: Rectangl13
+    2300010: Rectangl14
+    2300012: Rectangl15
+    2300014: Rectangl16
+    2300016: Rectangl17
+    2300018: Rectangl18
+    2300020: Rectangl19
+    2300022: Rectangl20
+    2300024: Rectangl21
+    2300026: Rectangl22
+    2300028: Rectangl23
+    2300030: Rectangl24
+    2300032: Rectangl25
+    2300034: Rectangl26
+    2300036: Rectangl27
+    2300038: Rectangl28
+    2300040: Rectangl29
+    2300042: Rectangl30
+    2300044: Rectangl31
+    2300046: Rectangl32
+    2300048: Rectangl33
+    2300050: Rectangle0
+    2300052: Rectangle1
+    2300054: Rectangle2
+    2300056: Rectangle3
+    2300058: Rectangle4
+    2300060: Rectangle5
+    2300062: Rectangle6
+    2300064: Rectangle7
+    2300066: Rectangle8
+    2300068: Rectangle9
+    3300000: Line01
+    3300002: Rectangl10
+    3300004: Rectangl11
+    3300006: Rectangl12
+    3300008: Rectangl13
+    3300010: Rectangl14
+    3300012: Rectangl15
+    3300014: Rectangl16
+    3300016: Rectangl17
+    3300018: Rectangl18
+    3300020: Rectangl19
+    3300022: Rectangl20
+    3300024: Rectangl21
+    3300026: Rectangl22
+    3300028: Rectangl23
+    3300030: Rectangl24
+    3300032: Rectangl25
+    3300034: Rectangl26
+    3300036: Rectangl27
+    3300038: Rectangl28
+    3300040: Rectangl29
+    3300042: Rectangl30
+    3300044: Rectangl31
+    3300046: Rectangl32
+    3300048: Rectangl33
+    3300050: Rectangle0
+    3300052: Rectangle1
+    3300054: Rectangle2
+    3300056: Rectangle3
+    3300058: Rectangle4
+    3300060: Rectangle5
+    3300062: Rectangle6
+    3300064: Rectangle7
+    3300066: Rectangle8
+    3300068: Rectangle9
+    4300000: Rectangle1
+    4300002: Rectangle0
+    4300004: Rectangle2
+    4300006: Rectangle3
+    4300008: Rectangle4
+    4300010: Rectangle5
+    4300012: Rectangle6
+    4300014: Rectangle7
+    4300016: Rectangle8
+    4300018: Rectangle9
+    4300020: Rectangl10
+    4300022: Rectangl11
+    4300024: Rectangl12
+    4300026: Rectangl13
+    4300028: Rectangl14
+    4300030: Rectangl15
+    4300032: Rectangl16
+    4300034: Rectangl17
+    4300036: Rectangl18
+    4300038: Rectangl19
+    4300040: Rectangl20
+    4300042: Rectangl21
+    4300044: Rectangl22
+    4300046: Rectangl23
+    4300048: Rectangl24
+    4300050: Rectangl25
+    4300052: Rectangl26
+    4300054: Line01
+    4300056: Rectangl27
+    4300058: Rectangl28
+    4300060: Rectangl29
+    4300062: Rectangl30
+    4300064: Rectangl31
+    4300066: Rectangl32
+    4300068: Rectangl33
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

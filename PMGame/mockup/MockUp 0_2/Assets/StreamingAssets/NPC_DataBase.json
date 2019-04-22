@@ -1,0 +1,4 @@
+[{"teamRole":"President","treatment":"Mr.","firstName":"John","surname":"Osbourne","photo":10000111,"email":"john.osbourne@email.com","afinity":1,"respect":2,"confidence":4,"type":"XXXX"},
+{"teamRole":"Director","treatment":"Mr.","firstName":"Paul","surname":"Iommi","photo":10001000,"email":"paul.iommi@email.com","afinity":2,"respect":4,"confidence":8,"type":"YYYY"},
+{"teamRole":"Manager","treatment":"Mr.","firstName":"Ringo","surname":"Butler","photo":10000111,"email":"ringo.butler@email.com","afinity":3,"respect":6,"confidence":8,"type":"WWWW"},
+{"teamRole":"Trainee","treatment":"Mr.","firstName":"George","surname":"Ward","photo":10001000,"email":"george.ward@email.com","afinity":4,"respect":6,"confidence":9,"type":"ZZZZ"}]
